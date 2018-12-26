@@ -1,0 +1,165 @@
+[Stack]
+FillEnabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-1671558085
+[JLinkDriver]
+CStepIntDis=_ 0
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+LeaveTargetRunning=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=24000000
+ClockAutoDetect=1
+ClockWanted=6000000
+JtagSpeed=6000000
+Prescaler=4
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=1
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[InterruptStripe]
+Sort=1
+[RegisterFilter]
+FilePath=_ ""
+UseFilter=_ 0
+[struct_types]
+Fmt0=struct_ow_type-idr	4	0
+Fmt1=struct_ow_type-odr	4	0
+Fmt2=struct_ow_type-pin_mask	4	0
+Fmt3=tmpr_type-frac	3	0
+Fmt4=tmpr_type-integer	3	0
+Fmt5=tmpr_type-result	4	0
+Fmt6=tmpr_type-sign	4	0
+Fmt7=tmpr_type-update	4	0
+[watch_formats]
+Fmt0={W}0:flag	4	0
+Fmt1={W}42:(long long)tem.integer	4	0
+Fmt2={W}42:(long)tem.integer	4	0
+Fmt3={W}42:outVol	3	0
+Fmt4={W}42:tem.result	4	0
+Fmt5={W}42:tskVol	3	0
+Fmt6={W}42:usts16	3	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=1
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\drivers\src\beep.c}.36.5" 0 0 1 "" 0 "" 0
+Count=1
+[Aliases]
+A0=_ "C:\DriverLib-LM3S\build\DriverLib.test\IQmath\iar\IQNdiv.S" ""
+A1=_ "C:\DriverLib-LM3S\build\DriverLib.test\IQmath\iar\IQNmpy.S" ""
+A2=_ "D:\Radio\Devices\PSonSTM32F100\Power_STM32F100RBT6__V2_IAR\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md_vl.s" ""
+A3=_ "D:\Radio\Устройства\БП на STM32F100\Power_STM32F100RBT6__V2_IAR\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md_vl.s" ""
+A4=_ "D:\Radio\Устройства\БП на STM32F100\Power_STM32F100RBT6__V2_IAR\FreeRTOS\src\tasks.c" ""
+A5=_ "D:\Радио\Устройства\PS_SPECTR\spectr\Code\src\main.c" ""
+A6=_ "D:\Радио\Устройства\PS_SPECTR\spectr\Code\src\setting.c" ""
+A7=_ "D:\Радио\Устройства\PS_SPECTR\spectr\FreeRTOS\src\tasks.c" ""
+A8=_ "D:\Радио\Устройства\PS_SPECTR\spectr\drivers\src\LPH8731.c" ""
+Count=9
+SuppressDialog=1

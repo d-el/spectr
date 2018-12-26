@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3391680445</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\src\template\cfgtiny10.xcl</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\tinyAdc.d90</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg_tiny_avr_1toim.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iotiny10.inc</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl1t_tiny.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\tinyAdc.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\tinyAdc.hex</file>
+      <file>$TOOLKIT_DIR$\src\template\lnk0t.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1t_tiny-n.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\tinyAdc.cof</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1t_tiny-n.h</file>
+      <file>$TOOLKIT_DIR$\inc\iotiny10.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl0t.r90</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+      <file>$PROJ_DIR$\Debug\List\main.s90</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30 29 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 18 15 7 6 4 26 20 21 24 14 25 17 28 27 23 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 15 7 6 4 26 20 21 24 25 17 28 27 23 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\tinyAdc.d90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 11 3 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\tinyAdc.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\tinyAdc.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0 5 3 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\tinyAdc.cof</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0 5 3 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,192 @@
+;  UST1 ----------------------
+;CompAttrModify "UST1" "IDGR" "0"
+;CompAttrModify "UST1" "IDPRM" "0"
+;CompAttrAdd "UST1" "VALUE" "Сетевой адрес"
+;  ----------------------
+;  UST2 ----------------------
+;CompAttrModify "UST2" "IDPRM" "0"
+;CompAttrAdd "UST2" "VALUE" "UDAC0"
+;  ----------------------
+;  UST3 ----------------------
+;CompAttrModify "UST3" "IDPRM" "1"
+;CompAttrAdd "UST3" "VALUE" "IDAC0"
+;  ----------------------
+;  UST4 ----------------------
+;CompAttrModify "UST4" "IDPRM" "2"
+;CompAttrAdd "UST4" "VALUE" "MODE0"
+;  ----------------------
+;  UST5 ----------------------
+;CompAttrModify "UST5" "IDGR" "10"
+;CompAttrModify "UST5" "IDPRM" "3"
+;CompAttrAdd "UST5" "VALUE" "IMAX0"
+;  ----------------------
+;  UST6 ----------------------
+;CompAttrAdd "UST6" "VALUE" "USTs16"
+;  ----------------------
+;  UST7 ----------------------
+;CompAttrAdd "UST7" "VALUE" "Д1"
+;  ----------------------
+;  UST8 ----------------------
+;CompAttrAdd "UST8" "VALUE" "N тик логера"
+;  ----------------------
+;  UST9 ----------------------
+;CompAttrAdd "UST9" "VALUE" "Тип логера"
+;  ----------------------
+;  UST10 ----------------------
+;CompAttrAdd "UST10" "VALUE" "N колич.перем Л"
+;  ----------------------
+;  UST11 ----------------------
+;CompAttrAdd "UST11" "VALUE" "№ переменной 1"
+;  ----------------------
+;  UST12 ----------------------
+;CompAttrAdd "UST12" "VALUE" "№ переменной 2"
+;  ----------------------
+;  UST13 ----------------------
+;CompAttrAdd "UST13" "VALUE" "№ переменной 3"
+;  ----------------------
+;  UST14 ----------------------
+;CompAttrAdd "UST14" "VALUE" "№ переменной 4"
+;  ----------------------
+;  UST15 ----------------------
+;CompAttrAdd "UST15" "VALUE" "№ переменной 5"
+;  ----------------------
+;  UST16 ----------------------
+;CompAttrAdd "UST16" "VALUE" "№ переменной 6"
+;  ----------------------
+;  UST17 ----------------------
+;CompAttrAdd "UST17" "VALUE" "№ переменной 7"
+;  ----------------------
+;  UST18 ----------------------
+;CompAttrAdd "UST18" "VALUE" "№ переменной 8"
+;  ----------------------
+;  UST19 ----------------------
+;CompAttrAdd "UST19" "VALUE" "№ переменной 9"
+;  ----------------------
+;  UST20 ----------------------
+;CompAttrAdd "UST20" "VALUE" "Лог время записи"
+;  ----------------------
+;  USTD21 ----------------------
+;CompAttrAdd "USTD21" "VALUE" "USTs32"
+;  ----------------------
+;  USTD22 ----------------------
+;CompAttrAdd "USTD22" "VALUE" "USTfloat"
+;  ----------------------
+;  TEK1 ----------------------
+;CompAttrModify "TEK1" "IDGR" "0"
+;CompAttrModify "TEK1" "IDPRM" "1"
+;CompAttrAdd "TEK1" "VALUE" "Версия ПО"
+;  ----------------------
+;  TEK2 ----------------------
+;CompAttrModify "TEK2" "IDGR" "0"
+;CompAttrModify "TEK2" "IDPRM" "2"
+;CompAttrAdd "TEK2" "VALUE" "Подверсия ПО"
+;  ----------------------
+;  TEK3 ----------------------
+;CompAttrModify "TEK3" "IDGR" "0"
+;CompAttrModify "TEK3" "IDPRM" "3"
+;CompAttrAdd "TEK3" "VALUE" "CRC ПО"
+;  ----------------------
+;  TEK4 ----------------------
+;CompAttrModify "TEK4" "IDGR" "15"
+;CompAttrAdd "TEK4" "VALUE" "Сетевой адрес"
+;  ----------------------
+;  ----------------------
+;  ----------------------
+;RefdesChange "UST1" "UST60001"
+;RefdesChange "UST2" "UST60002"
+;RefdesChange "UST3" "UST60003"
+;RefdesChange "UST4" "UST60004"
+;RefdesChange "UST5" "UST60005"
+;RefdesChange "UST6" "UST60006"
+;RefdesChange "UST7" "UST60007"
+;RefdesChange "UST8" "UST60008"
+;RefdesChange "UST9" "UST60009"
+;RefdesChange "UST10" "UST60010"
+;RefdesChange "UST11" "UST60011"
+;RefdesChange "UST12" "UST60012"
+;RefdesChange "UST13" "UST60013"
+;RefdesChange "UST14" "UST60014"
+;RefdesChange "UST15" "UST60015"
+;RefdesChange "UST16" "UST60016"
+;RefdesChange "UST17" "UST60017"
+;RefdesChange "UST18" "UST60018"
+;RefdesChange "UST19" "UST60019"
+;RefdesChange "UST20" "UST60020"
+;RefdesChange "USTD21" "USTD60021"
+;RefdesChange "USTD22" "USTD60022"
+;RefdesChange "TEK1" "TEK60001"
+;RefdesChange "TEK2" "TEK60002"
+;RefdesChange "TEK3" "TEK60003"
+;RefdesChange "TEK4" "TEK60004"
+;  ----------------------
+;  ----------------------
+;RefdesChange "UST60001" "UST1"
+;RefdesChange "UST60002" "UST2"
+;RefdesChange "UST60003" "UST3"
+;RefdesChange "UST60004" "UST4"
+;RefdesChange "UST60005" "UST20"
+;RefdesChange "UST60006" "UST5"
+;RefdesChange "UST60007" "UST6"
+;RefdesChange "UST60008" "UST7"
+;RefdesChange "UST60009" "UST8"
+;RefdesChange "UST60010" "UST9"
+;RefdesChange "UST60011" "UST10"
+;RefdesChange "UST60012" "UST11"
+;RefdesChange "UST60013" "UST12"
+;RefdesChange "UST60014" "UST13"
+;RefdesChange "UST60015" "UST14"
+;RefdesChange "UST60016" "UST15"
+;RefdesChange "UST60017" "UST16"
+;RefdesChange "UST60018" "UST17"
+;RefdesChange "UST60019" "UST18"
+;RefdesChange "UST60020" "UST19"
+;RefdesChange "USTD60021" "USTD21"
+;RefdesChange "USTD60022" "USTD22"
+;RefdesChange "TEK60001" "TEK1"
+;RefdesChange "TEK60002" "TEK2"
+;RefdesChange "TEK60003" "TEK3"
+;RefdesChange "TEK60004" "TEK4"
+;  ----------------------
+;  ----------------------
+;CompAttrAdd "ATR1" "Base0_Val" "1000"
+;CompAttrAdd "ATR1" "Base0_Prm" ""
+;CompAttrAdd "ATR1" "Base1_Val" "480"
+;CompAttrAdd "ATR1" "Base1_Prm" ""
+;CompAttrAdd "ATR1" "Base2_Val" "10000"
+;CompAttrAdd "ATR1" "Base2_Prm" ""
+;CompAttrAdd "ATR1" "Base3_Val" "1000"
+;CompAttrAdd "ATR1" "Base3_Prm" ""
+;CompAttrAdd "ATR1" "Base4_Val" "1000"
+;CompAttrAdd "ATR1" "Base4_Prm" ""
+;CompAttrAdd "ATR1" "Base5_Val" "100"
+;CompAttrAdd "ATR1" "Base5_Prm" ""
+;CompAttrAdd "ATR1" "Base6_Val" "100"
+;CompAttrAdd "ATR1" "Base6_Prm" ""
+;CompAttrAdd "ATR1" "Base7_Val" "100"
+;CompAttrAdd "ATR1" "Base7_Prm" ""
+;CompAttrAdd "ATR1" "Base8_Val" "100"
+;CompAttrAdd "ATR1" "Base8_Prm" ""
+;CompAttrAdd "ATR1" "Base9_Val" "100"
+;CompAttrAdd "ATR1" "Base9_Prm" ""
+;CompAttrAdd "ATR1" "Base10_Val" "100"
+;CompAttrAdd "ATR1" "Base10_Prm" ""
+;CompAttrAdd "ATR1" "Base11_Val" "100"
+;CompAttrAdd "ATR1" "Base11_Prm" ""
+;CompAttrAdd "ATR1" "Base12_Val" "100"
+;CompAttrAdd "ATR1" "Base12_Prm" ""
+;CompAttrAdd "ATR1" "Base13_Val" "100"
+;CompAttrAdd "ATR1" "Base13_Prm" ""
+;CompAttrAdd "ATR1" "Base14_Val" "100"
+;CompAttrAdd "ATR1" "Base14_Prm" ""
+;CompAttrAdd "ATR1" "Producer" "TRIOL"
+;CompAttrAdd "ATR1" "Product" "AФКУ"
+;CompAttrAdd "ATR1" "Version" "34000"
+;CompAttrAdd "GRP1" "Value" "Идентификация"
+;CompAttrModify "GRP1" "NUM" "2"
+;CompAttrAdd "GRP5" "Value" "Логер"
+;  ----------------------
+;  ----------------------
+;  ----------------------
+;  ----------------------
+;  ----------------------
+;  ----------------------
